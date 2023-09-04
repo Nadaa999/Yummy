@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.firstSec{
+
+    display: flex;
+}
+
+.secondSec{
+
+    display: none;
+}
+
+.thirdSec{
+    display: none;
+}
+
+
+.layer{
+background-color: rgba(255, 255, 255, 0.699);
+position: absolute;
+top: 100%;
+right: 0;
+left: 0;
+bottom: -100%;
+transition: all 0.5s;
+
+}
+
+#sideBar{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    
+}
+
+.btns{
+    background-color: black;
+    padding: 10px;
+    padding-right: px;
+    display: none;
+    
+  
+}
+
+.col-md-3:hover  .layer{
+    top: 0px;
+    bottom: 0px;
+
+}
+
+
+.col-md-3{
+cursor: pointer;
+
+}
+
+
+li,i{
+    cursor: pointer;
+}
+
+.recipes-clr{
+    background-color: #cff4fc;
+    color: #055160;
+}
+
+.tag{
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.bckgrnd{
+    color: white !important;
+}
+
+
+
+#loading{
+    background-color: #333;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 999999;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+}
+.loading{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
